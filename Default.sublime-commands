@@ -1,0 +1,35 @@
+[
+    {
+        "caption": "FileTool: LastPos",
+        "command": "navigation_history_back"
+    },
+    {
+        "caption": "FileTool: NextPos",
+        "command": "navigation_history_forward"
+    },
+    {
+        "caption": "FileTool: Rename",
+        "command": "rename_file"
+    },   
+	{
+        "caption": "FileTool: OpenDir",
+        "command": "open_dir", "args":
+        {
+            "dir": "$file_path", "file": "$file_name"
+        }
+    },
+	{
+        "caption": "Preferences: FileTool – Default (Windows).sublime-keymap",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/FileTool/Default (Windows).sublime-keymap"
+        }
+    },
+	{
+        "caption": "Preferences: FileTool – Default.sublime-commands",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/FileTool/Default.sublime-commands"
+        }
+    }
+]

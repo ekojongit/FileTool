@@ -1,0 +1,5 @@
+[
+	{ "keys": ["ctrl+alt+e"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+	{ "keys": ["ctrl+minus"], "command": "navigation_history_back"},
+	{ "keys": ["ctrl+shift+minus"], "command": "navigation_history_forward"},
+]
